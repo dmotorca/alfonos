@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { DropDown } from './drop-down';
 
 const navItems = {
   '/': {
@@ -24,6 +25,8 @@ export function Navbar() {
       <Link href="/showcase">Showcase</Link>
       <Link href="/blog">Blog</Link>
       <Link href="/About">About</Link>
+
+      <DropDown />
     </div>
   );
 }
